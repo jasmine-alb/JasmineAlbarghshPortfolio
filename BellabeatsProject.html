@@ -1,0 +1,567 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Phantom by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+
+
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+							<a href="index.html" class="logo">
+								<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Home Page</span>
+							</a>
+
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="About_Me.html">About Me</a></li>
+							<li><a href="Jasmine_Albarghsh_2024.pdf" target="_blank">Resume</a></li>
+							<li><a href="BellabeatsProject.html">Bellabeat Case Study</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>How Can a Wellness Technology Company Play it Smart?</h1>
+							<h4><strong>Bellabeat Case Study:</strong> SQL, Excel, and Tableau</h4>
+							<span class="image main"><img src="images/Bellabeat.jpg" alt="Bellabeat" /></span>
+							<hr>
+<h3 id="links-to-tableau-dashboard-and-github-code">Links to Tableau Dashboard and Github Code</h3>
+<ul>
+<li><a href="https://public.tableau.com/views/BellabeatsPortfolioProject/BellabeatDashboard?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" target="_blank">Bellabeat Tableau Public Dashboard</a></li>
+<li><a href="https://github.com/jasmine-alb/PortfolioProjects/blob/936150aac0202c2d870961e8a49f107776bfcf0b/BellabeatDataAnalysis.sql" target="_blank">GitHub MySQL Full Code</a></li>
+</ul>
+<hr>
+<h1 id="scenario">Scenario</h1>
+<p>For the purposes of this case study, I am a junior data analyst working on the marketing analyst team at <a href="https://bellabeat.com/">Bellabeat</a>, a high-tech manufacturer of health-focused products for women. Bellabeat is a successful small company, but they have the potential to become a larger player in the global smart device market. Urška Sršen, cofounder and Chief Creative Officer of Bellabeat, believes that analyzing smart device fitness data could help unlock new growth opportunities for the company. I have been asked to focus on one of Bellabeat’s products and analyze smart device data to gain insight into how consumers are using their smart devices. The insights I discover will then help guide marketing strategy for the company.</p>
+<hr>
+<h1 id="characters-and-products">Characters and Products</h1>
+
+<h2 id="stakeholders">Stakeholders</h2>
+<ul>
+<li><strong>Urška Sršen:</strong> Bellabeat’s cofounder and Chief Creative Officer</li>
+<li><strong>Sando Mur:</strong> Mathematician and Bellabeat’s cofounder; key member of the Bellabeat executive team </li>
+<li><strong>Bellabeat marketing analytics team:</strong> A team of data analysts responsible for collecting, analyzing, and reporting data that helps guide Bellabeat’s marketing strategy</li>
+</ul>
+<h2 id="products">Products</h2>
+<ul>
+<li><strong>Bellabeat app:</strong> The Bellabeat app provides users with health data related to their activity, sleep, stress, menstrual cycle, and mindfulness habits. This data can help users better understand their current habits and make healthy decisions. The Bellabeat app connects to their line of smart wellness products. </li>
+<li><strong>Leaf:</strong> Bellabeat’s classic wellness tracker can be worn as a bracelet, necklace, or clip. The Leaf tracker connects to the Bellabeat app to track activity, sleep, and stress. </li>
+<li><strong>Time:</strong> This wellness watch combines the timeless look of a classic timepiece with smart technology to track user activity, sleep, and stress. The Time watch connects to the Bellabeat app to provide you with insights into your daily wellness. </li>
+<li><strong>Spring:</strong> This is a water bottle that tracks daily water intake using smart technology to ensure that you are appropriately hydrated throughout the day. The Spring bottle connects to the Bellabeat app to track your hydration levels. </li>
+<li><strong>Bellabeat membership:</strong> Bellabeat also offers a subscription-based membership program for users. Membership gives users 24/7 access to fully personalized guidance on nutrition, activity, sleep, health and beauty, and mindfulness based on their lifestyle and goals.</li>
+</ul>
+<h2 id="current-marketing-strategies">Current Marketing Strategies</h2>
+<p>Collecting data on activity, sleep, stress, and reproductive health has allowed Bellabeat to empower women with knowledge about their own health and habits. Since it was founded in 2013, Bellabeat has grown rapidly and quickly positioned itself as a tech-driven wellness company for women.</p>
+<p>The company has invested in traditional advertising media, such as radio, out-of-home billboards, print, and television, but focuses on digital marketing extensively. Bellabeat invests year-round in Google Search, maintaining active Facebook and Instagram pages, and consistently engages consumers on Twitter. Additionally, Bellabeat runs video ads on Youtube and display ads on the Google Display Network to support campaigns around key marketing dates.</p>
+<p>Sršen knows that an analysis of Bellabeat’s available consumer data would reveal more opportunities for growth. She has asked the marketing analytics team to focus on a Bellabeat product and analyze smart device usage data in order to gain insight into how people are already using their smart devices. Then, using this information, she would like high-level recommendations for how these trends can inform Bellabeat marketing strategy</p>
+<hr>
+<h1 id="project-deliverables">Project Deliverables</h1>
+<ol>
+<li>Clear Summary of Business task</li>
+<li>Preparing all data sources used </li>
+<li>Documentation of any cleaning or manipulation of data</li>
+<li>Summary of analysis</li>
+<li>Supporting Visualizations and key findings</li>
+<li>Top high-level content recommendations based on the analysis </li>
+</ol>
+<h2 id="tools-used-in-analysis">Tools Used in Analysis</h2>
+<ul>
+<li><strong>Data Cleaning:</strong> Microsoft Excel</li>
+<li><strong>Data Analysis:</strong> MySQL Server</li>
+<li><strong>Data Visualization:</strong> Tableau Public </li>
+</ul>
+<hr>
+<h1 id="clear-summary-of-business-task">Clear Summary of Business Task</h1>
+<h2 id="business-task">Business Task</h2>
+<p>The business task is to analyze smart device usage trends to gain insights on how consumers use these devices. The goal is to apply these insights to Bellabeat&#39;s products, ultimately informing and refining Bellabeat&#39;s marketing strategy to drive customer engagement and growth. </p>
+<h2 id="the-problem-we-re-trying-to-solve">The Problem We&#39;re Trying to Solve</h2>
+<p>Bellabeat aims to become a larger player in the global smart device market. To achieve this we need to:</p>
+<ul>
+<li>Understand current trends in smart device usage.</li>
+<li>Leverage these insights to enhance product offerings, better meet customer needs, and refine the marketing strategies.</li>
+<li>Improve customer engagement and retention by offering personalized experience and encouraging more frequent use of Bellabeat products. </li>
+</ul>
+<h2 id="how-these-insights-will-drive-business-decisions-">How These Insights will Drive Business Decisions?</h2>
+<ol>
+<li><strong>Product Development:</strong> Bellabeat can refine existing products or create features based on popular trends from non-Bellabeat devices. In this case study, I will be analyzing Fitbit data. </li>
+<li><strong>Marketing Campaigns:</strong> tailoring marketing efforts to emphasize Bellabeat&#39;s competitive advantages and attract new users who value health, fitness, and stylish design</li>
+<li><strong>User Engagement:</strong> offer more personalized experiences and gamification elements, increasing customer engagement and usage frequency.</li>
+<li><strong>Strategic Partnerships:</strong> could lead to opportunities for Bellabeat to partner with other health apps or platforms to create a more integrated user experience. </li>
+</ol>
+<hr>
+<h1 id="preparing-the-data-sources">Preparing the Data Sources</h1>
+<h2 id="summary-of-data-source-used">Summary of Data Source Used</h2>
+<p>To answer Bellabeat&#39;s business tasks, I will be using <a href="https://www.kaggle.com/datasets/arashnic/fitbit">FitBit Fitness Tracker Data</a> (CC0: Public Domain, dataset made available through <a href="https://www.kaggle.com/arashnic">Mobius</a>). This Kaggle data set comprises 18 files containing personal fitness tracker from thirty Fitbit users. Thirty eligible Fitbit users consented to the submission of personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring. It includes information about daily activity, steps, and heart rate that can be used to explore users’ habits.</p>
+<h2 id="some-considerations-about-the-dataset">Some Considerations about the dataset</h2>
+<ul>
+<li><strong>Sampling bias:</strong>  May apply, it is unclear how the participants were chosen</li>
+<li><strong>Small Sample Size:</strong>  Data only contains 30 Fitbit users, which is a small sample size and does not represent the broader population</li>
+<li><strong>Skewed Data:</strong>  Since it is limited to users who already own Fitbit devices, the data could skew toward already more health-conscious individuals.</li>
+<li><strong>Old Data:</strong>  The data is from 2016, so it is outdated at the time of this analysis </li>
+<li><strong>Short Time Period:</strong>  All data was collected over 1-month time span, not enough time to find accurate and reliable trends </li>
+<li><strong>No Demographic Data:</strong>  Dataset does not provide information about the gender or age of the users. Bellabeat is a health-tech company focused on products for women </li>
+<li><strong>Only Represents one device:</strong>  Since this is FitBit data, it lacks relevant information to the Spring product and the Bellabeat app, therefore limiting the scope of the analysis to the Time smart device. </li>
+</ul>
+<hr>
+<h1 id="processing-and-cleaning-the-dirty-data">Processing and Cleaning the Dirty Data</h1>
+<h2 id="data-cleaning-in-excel">Data Cleaning in Excel</h2>
+<p>The following updates were completed in GoogleSheets in order to clean data effectively. </p>
+<ul>
+<li><strong>Removal of Unwanted Tables:</strong>  As <code>daily_steps, daily_calories</code> and <code>daily_intensities</code> table were part of <code>daily_activity table</code>; therefore, these files were removed. There are also wide and narrow versions of all of the sheets, I will be using the wide versions for analysis. </li>
+<li><strong>Remove Duplicates:</strong>  Checked for duplicate data using &#39;duplicate data tool&#39;<ul>
+<li>In the <code>SleepDay</code> dataset there were 3 duplicate rows found and removed </li>
+</ul>
+</li>
+<li><strong>Standardized Dates:</strong>  Formatted date data in all tables by using Format --&gt; Number --&gt;DateTime</li>
+<li><strong>Standardized Numbers:</strong>  Formatted all numerical data into 4 decimal points</li>
+<li><strong>Added Weekday Column:</strong>  In the <code>dailyactivity</code> added a new column call day of week, so I can analyze weekday and weekend trends. Using the following formula: <ul>
+<li>= TEXT(&#39;ActivityDate&#39;, &quot;DDDD&quot;)</li>
+</ul>
+</li>
+<li><strong>Exported datasets as CSV Files</strong></li>
+</ul>
+<hr>
+<h1 id="data-analysis-visualizations-and-key-findings">Data Analysis, Visualizations, and Key Findings</h1>
+<h2 id="upload-data-to-sql-server">Upload Data to SQL Server</h2>
+<p>For analysis, I have centralized all of the data into MySQL. This allowed me to easily manage the entirety of the files and make relevant queries, as the CSV files can be transformed into tables. I uploaded the following six clean data sets to MySQL Workbench:</p>
+<div style="text-align: center;">
+	<span class="img main">
+		<img src="TableauImages/CSVFiles.png" alt="CSV FILES" style="width: 40%;" />
+	</span>
+</div>
+<p>After upload, I ran a quick Select All Statement for each of the tables to ensure that everything was uploaded correctly. </p>
+<h2 id="count-distinct-entries">Count Distinct Entries</h2>
+<p>First, I ran a COUNT(DISTINCT ) function to see how many unique number of IDs are in each of the tables. I ran the following code for all 6 tables I uploaded to MySQL.</p>
+<!-- Code block container -->
+<div class="code-block-container" style="width: 80%;">
+	<div class="code-label">MySQL</div>
+	<pre class="code-block">
+SELECT COUNT(DISTINCT Id) AS distinct_ids
+FROM `Bellabeats`.`dailyactivity`;</pre>
+</div>
+<ul>
+	<li>In the <code>dailyactivities</code>, <code>hourlycalories, hourlyintensities</code>, and <code>hourlysteps</code> tables there were 33 distinct IDs</li>
+	<li>In the <code>sleepday</code> table there were 24 distinct IDs</li>
+	<li>In the <code>weightloginfo</code> table there were only 8 distinct IDs. Given that this is a small sample size, it will not provide sufficient data for meaningful analysis. Therefore, I will exclude this table moving forward</li>
+	</ul>
+	<h2 id="classifying-users-by-wearable-device-usage">Classifying Users by Wearable Device Usage</h2>
+	<p>The first thing I want to investigate, is how many days did the user wear their Fitbit tracker in a month.</p>
+	<!-- Code block container -->
+<div class="code-block-container" style="width: 80%;">
+	<div class="code-label">MySQL</div>
+	<pre class="code-block">
+SELECT
+	Count(ID) AS NumUsers,
+    	NumDaysLogged
+FROM
+	(SELECT 
+        ID,
+        COUNT(*) AS NumDaysLogged
+	FROM `Bellabeats`.`dailyactivity`
+	GROUP BY ID) AS LoggedUsageTable
+GROUP BY NumDaysLogged
+ORDER BY NumDaysLogged DESC</pre>
+</div>
+<div style="text-align: center;">
+	<span class="img main">
+		<img src="TableauImages/UserTable.png" alt="User Table" style="width: 30%;" />
+	</span>
+</div>
+<p>Around 64% of users wore their FitBit tracker for the whole month. This makes sense for the context of the data set since this survey was distributed to existing FitBit users, and those users who consistently wear their watches would be more inclined to respond to the survey. </p>
+<p>Now I want to classify these users based on how consistently they wear their FitBit. </p>
+<ul>
+<li><strong>Active Users:</strong>  wear their watch between 31 and 25 days</li>
+<li><strong>Moderate Users:</strong>  wear their watch between 24 and 15 days</li>
+<li><strong>Light Users:</strong>  wear their watch between 14 and 0 days</li>
+</ul>
+<!-- Code block container -->
+<div class="code-block-container" style="width: 80%;">
+	<div class="code-label">MySQL</div>
+	<pre class="code-block">
+SELECT 
+    SUM(CASE 
+        WHEN NumDaysLogged BETWEEN 25 AND 31 THEN 1
+        ELSE 0
+    END) AS Active_Users,
+    SUM(CASE 
+        WHEN NumDaysLogged BETWEEN 15 AND 24 THEN 1
+        ELSE 0
+    END) AS Moderate_Users,
+    SUM(CASE 
+        WHEN NumDaysLogged BETWEEN 0 AND 14 THEN 1
+        ELSE 0
+    END) AS Light_Users
+FROM (
+    SELECT 
+        ID,
+        COUNT(*) AS NumDaysLogged
+    FROM `Bellabeats`.`dailyactivity`
+    GROUP BY ID
+) AS LoggedUsageTable;</pre>
+</div>
+<div style="text-align: center;">
+	<span class="img main">
+		<img src="TableauImages/FitbitWearCategories.png" alt="FitbitWearCategories" style="width: 60%;" />
+	</span>
+</div>
+
+<h2 id="exploring-data-further">Exploring Data Further</h2>
+<p>Now I want to get into more granular data for analysis. From the <code>dailyactivity</code> table I want to look at some averages of the dataset to see where I should investigate further.</p>
+<!-- Code block container -->
+<div class="code-block-container" style="width: 80%;">
+	<div class="code-label">MySQL</div>
+	<pre class="code-block">
+SELECT
+    AVG(VeryActiveMinutes),
+    AVG(FairlyActiveMinutes),
+    AVG(LightlyActiveMinutes),
+    AVG(SedentaryMinutes),
+    AVG(TotalSteps),
+    AVG(Calories)
+FROM `Bellabeats`.`dailyactivity`;
+
+SELECT 
+    AVG(TotalMinutesAsleep),
+    AVG(TotalTimeInBed)
+FROM `Bellabeats`.`sleepday`; </pre>
+</div>
+<div style="text-align: center;">
+	<span class="img main">
+		<img src="TableauImages/DailyAvg.png" alt="DailyAvg" style="width: 20%;" />
+	</span>
+</div>
+<h4 id="-some-insights-from-this-query-"><strong>Some insights from this query:</strong></h4>
+<ul>
+<li>The <code>AVG(SedentaryMinutes)</code> is 991.2 which is close to 16.5 hours per day. This is high for health and wellness users.</li>
+<li>Comparing the three <code>ActiveMinutes</code> columns, it seems the majority of users participate in light physical activity compared to <code>FairlyActive</code> and <code>VeryActive</code> minutes.</li>
+<li>The <code>AVG(TotalSteps)</code> is 7,638 steps per day which is less than the <a href="https://www.cdc.gov/physical-activity-basics/benefits/index.html">CDC</a> recommended 8,000 to 10,000 steps per day for adults younger than 60 years old. </li>
+</ul>
+
+<h2 id="peak-hours-and-days-for-physical-activity">Peak Hours and Days for Physical Activity</h2>
+<p>Now I want to investigate what days of the week that users are most active.</p>
+<!-- Code block container -->
+<div class="code-block-container" style="width: 80%;">
+	<div class="code-label">MySQL</div>
+	<pre class="code-block">
+SELECT
+    Weekday,
+    AVG(VeryActiveMinutes),
+    AVG(FairlyActiveMinutes),
+    AVG(LightlyActiveMinutes),
+    AVG(SedentaryMinutes)
+FROM `Bellabeats`.`dailyactivity`
+GROUP BY Weekday
+ORDER BY FIELD(Weekday, 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'); </pre>
+</div>
+<div style="text-align: center;">
+	<span class="img main">
+		<img src="TableauImages/WeekdayIntensity.png" alt="WeekdayIntensity" style="width: 60%;" />
+	</span>
+</div>
+<p>It looks like the average intensities stay consistent throughout the week. Peak days for <code>LightlyActiveMinutes</code> are Friday and Saturday. </p>
+<p>Now let&#39;s see how the intensity levels vary by the time of day. Before I can do this, I am going to separate out the date from the time in the <code>ActivityHourColumn</code>, then perform the calculation. </p>
+<!-- Code block container -->
+<div class="code-block-container" style="width: 80%;">
+	<div class="code-label">MySQL</div>
+	<pre class="code-block">
+-- Let's add the new columns 
+
+ALTER TABLE `Bellabeats`.`hourlyintensities`
+ADD COLUMN ActivityDate Date; 
+
+ALTER TABLE `Bellabeats`.`hourlyintensities`
+ADD COLUMN ActivityTime Time; 
+
+-- Now let's populate these columns with the data from the activityhour column
+
+UPDATE `Bellabeats`.`hourlyintensities`
+SET
+	ActivityDate = DATE(activityhour),
+    ActivityTime = TIME(activityhour); 
+
+-- Now we can find the average intensisty by the hour of the day
+
+SELECT
+	ActivityTime,
+    AVG(AverageIntensity)
+FROM `Bellabeats`.`hourlyintensities`
+GROUP BY ActivityTime
+ORDER BY ActivityTime ASC;  </pre>
+</div>
+<div style="text-align: center;">
+	<span class="img main">
+		<img src="TableauImages/PeakHoursFullWeek.png" alt="PeakHoursFullWeek" style="width: 60%;" />
+	</span>
+</div>
+<p>We can see here that peak hours for physical activity are between 5:00 pm - 7:00 pm. This makes sense as most users work and will have this time after work to engage in physical activity. It seems to start dropping off after 8:00 pm, and then begins to pick back up the next day at 5:00 am. Now let&#39;s compare the hours for peak physical activity on the weekends:  </p>
+<!-- Code block container -->
+<div class="code-block-container" style="width: 80%;">
+	<div class="code-label">MySQL</div>
+	<pre class="code-block">
+SELECT
+	ActivityTime,
+    AVG(AverageIntensity)
+FROM `Bellabeats`.`hourlyintensities`
+WHERE Weekday IN ('Saturday', 'Sunday') 
+GROUP BY ActivityTime
+ORDER BY ActivityTime ASC;   </pre>
+</div>
+<div style="text-align: center;">
+	<span class="img main">
+		<img src="TableauImages/PeakHoursWeekend.png" alt="PeakHoursWeekend" style="width: 60%;" />
+	</span>
+</div>
+<p>Similar to the full week data (Mon - Sun), weekend activity begins to drop off around 8:00 pm, but the peak hours for activity during the weekend are between 12:00 pm - 2:00 pm, and activity level begins a little later in the day around 6:00 am (most likely as people want to sleep in on the weekends).</p>
+<h4 id="-key-takeaways-"><strong>Key Takeaways:</strong></h4>
+<ul>
+<li>Using this data, Bellabeat can use these peak hours for physical activity to promote fitness challenges or push notifications (e.g., reminders to stay active) during these times.</li>
+<li>Bellabeat can also craft features like workout suggestions for users during these peak hours to increase engagement. </li>
+</ul>
+<h2 id="daily-steps-vs-calories-burned-understanding-activity-levels">Daily Steps vs. Calories Burned: Understanding Activity Levels</h2>
+<p>I now want to analyze how active users are throughout the day by comparing their total daily steps with their calories burned per day. </p>
+<!-- Code block container -->
+<div class="code-block-container" style="width: 80%;">
+	<div class="code-label">MySQL</div>
+	<pre class="code-block">
+SELECT id,
+	Activitydate,
+    totalsteps,
+    calories AS TotalCalories
+FROM `Bellabeats`.`dailyactivity`;  </pre>
+</div>
+<div style="text-align: center;">
+	<span class="img main">
+		<img src="TableauImages/StepsCalories.png" alt="StepsCalories" style="width: 70%;" />
+	</span>
+</div>
+<p>From this scatter plot we can see that there is a consistent relationship between Total Steps taken per day and the total number of calories burned per day. </p>
+<h4 id="-key-takeaways-"><strong>Key Takeaways:</strong></h4>
+<p>Using this data, the Bellabeat marketing team could create blog posts, emails, or social media campaigns that explain the relationship between steps and calorie burn, including how users can improve their step count to burn more calories. For example:</p>
+<ul>
+<li>“How Many Calories Can You Burn with 10,000 Steps?”</li>
+<li>“The Science of Steps: Why Walking More Leads to Higher Calorie Burn.”</li>
+</ul>
+<h2 id="cumulative-steps-over-time-tracking-user-activity-progression-">Cumulative Steps Over Time: Tracking User Activity Progression.</h2>
+<p>Now I want to know at which hours users reach specific step milestones and see how each user&#39;s steps accumulate throughout the day. </p>
+<!-- Code block container -->
+<div class="code-block-container" style="width: 80%;">
+	<div class="code-label">MySQL</div>
+	<pre class="code-block">
+-- First lets find the rolling cumulative steps by hour per user
+SELECT 
+	hs.Id,
+	hs.ActivityTime,
+	hs.StepTotal,
+	hs.ActivityDate,
+	SUM(hs.StepTotal) OVER (
+        PARTITION BY 
+            hs.ActivityDate,
+            hs.ID
+	ORDER BY hs.ActivityTime) AS RollingCumulativeSteps
+FROM `Bellabeats`.`hourlysteps` 
+
+-- Now let's classify these cumulative step counts by milestones
+
+WITH CumulativeSteps AS (SELECT 
+	hs.Id,
+	hs.ActivityTime,
+	hs.StepTotal,
+	hs.ActivityDate,
+	SUM(hs.StepTotal) OVER (
+        PARTITION BY 
+            hs.ActivityDate,
+            hs.ID
+	ORDER BY id, hs.ActivityTime) AS RollingCumulativeSteps
+FROM `Bellabeats`.`hourlysteps` hs
+)
+SELECT
+    Id,
+    ActivityDate,
+    ActivityTime,
+    RollingCumulativeSteps,
+	CASE 
+        WHEN RollingCumulativeSteps BETWEEN 5000 AND 9999 THEN '5000+ Steps'
+        WHEN RollingCumulativeSteps BETWEEN 10000 AND 14999 THEN '10000+ Steps'
+        WHEN RollingCumulativeSteps >= 15000 THEN '15000+ Steps'
+        ELSE 'Below 5000 Steps'
+    END AS StepMilestone
+FROM CumulativeSteps
+ORDER BY Id, ActivityDate, ActivityTime; </pre>
+</div>
+<div style="text-align: center;">
+	<span class="img main">
+		<img src="TableauImages/CumulativeSteps.png" alt="Cumulative Rolling Steps" style="width: 60%;" />
+	</span>
+</div>
+<p>In Tableau, I created a heat-map dashboard to visualize the Cumulative Rolling Step Milestone (color) broken down by Activity Hour vs. User ID. The data is filtered by Activity Date (MDY), which starts on April 12, 2016 and ends May 12, 2016. The data can also highlight each individual User ID on each day.  </p>
+<h4 id="-key-takeaways-"><strong>Key Takeaways:</strong></h4>
+<ul>
+<li>This heatmap can help identify the key times when users are most active, or when they fail to reach important step milestones, such as the CDC recommended 10,000 steps per day, allowing Bellabeat to <strong>push notifications</strong> or features to encourage reach this goal during these slow periods.</li>
+<li>We can also use this data to see if there are any trends across users, like whether users reach their milestones in the morning, afternoon, or evening. This can guide <strong>feature enhancements</strong> that encourage users to stay active when they tend to slow down.</li>
+</ul>
+<h2 id="sleep-patterns-sleep-duration-vs-daily-steps">Sleep Patterns: Sleep Duration vs. Daily Steps</h2>
+<p>Now let&#39;s analyze users&#39; sleep habits and see how this may correlate with their activity levels. First, let&#39;s look at the sleep data and see what general trends we can find across each day of the week. </p>
+<!-- Code block container -->
+<div class="code-block-container" style="width: 80%;">
+	<div class="code-label">MySQL</div>
+	<pre class="code-block">
+SELECT
+	Weekday,
+	AVG(TotalMinutesAsleep),
+    AVG(TotalTimeInBed)
+FROM `Bellabeats`.`sleepday`
+GROUP BY Weekday
+ORDER BY FIELD(Weekday, 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'); </pre>
+</div>
+<div style="text-align: center;">
+	<span class="img main">
+		<img src="TableauImages/WeekSleep.png" alt="WeekSleep" style="width: 60%;" />
+	</span>
+</div>
+<p>Users tend to spend the most time in bed and asleep on Sundays. Throughout the week, there is a discrepancy between the amount of time users spend in bed vs the amount of time they are actually asleep. </p>
+<h4 id="-key-takeaways-"><strong>Key Takeaways:</strong></h4>
+<ul>
+<li>These insights can be used to refine Bellabeat’s <strong>mindfulness features</strong> (e.g., promoting better sleep through relaxation exercises) and highlight the benefits of good sleep in marketing campaigns.</li>
+</ul>
+<p>Now let&#39;s compare how <code>TotalMinutesAsleep</code> compares with the <code>TotalSteps</code> taken in a day. </p>
+<!-- Code block container -->
+<div class="code-block-container" style="width: 80%;">
+	<div class="code-label">MySQL</div>
+	<pre class="code-block">
+SELECT
+	sleep.Weekday,
+    AVG(sleep.totalminutesasleep) AS AvgSleepDuration,
+    AVG(step.StepTotal) AS AvgSteps
+FROM `Bellabeats`.`sleepday` AS sleep
+JOIN `Bellabeats`.`hourlysteps` AS step
+	ON sleep.id = step.id
+    AND sleep.sleepday = step.activityhour
+GROUP BY sleep.Weekday
+ORDER BY FIELD(sleep.Weekday, 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');</pre>
+</div>
+<div style="text-align: center;">
+	<span class="img main">
+		<img src="TableauImages/SleepSteps.png" alt="SleepSteps" style="width: 60%;" />
+	</span>
+</div>
+<p>Step-count tends to be lower on Sundays and Wednesday - Fridays. The data also shows variation in sleep duration and daily step count. </p>
+<h4 id="-key-takeaways-"><strong>Key Takeaways:</strong></h4>
+<ul>
+<li>Bellabeat could develop <strong>day-specific challenges or promotions.</strong> For example, since we see that step count is lower mid-week, a campaign like &quot;Step it Up Wednesday&quot; could be promoted offering in-app badges or rewards for achieving step goals on those days. </li>
+<li>For the sleep vs step variation, Bellabeat could launch a campaign emphasizing the importance of balancing <strong>sufficient sleep and daily activity</strong> linking it to general wellness and health. </li>
+</ul>
+<hr>
+<h1 id="summary-and-recommendations">Summary and Recommendations</h1>
+<p>Bellabeat&#39;s target audience are health-conscious women, aged 18-65, seeking to improve their lifestyle through daily step goals, daily activity, tracking calories, and quality sleep. In order to design new marketing strategies and increasing user engagement, we have to refer to the analysis provided above and keep the data in mind. The data suggests that women who work full-time jobs (according to hourly intensity data) spend a lot of time at work/in-office in sedentary time. They often struggle to reach the CDC recommended 10,000 step goal, but they do make time for some light physical activity throughout the week. </p>
+<h2 id="top-recommendations">Top Recommendations</h2>
+<ul>
+<li>Using this data, Bellabeat can use peak hours for physical activity or when they fail to reach step milestones to promote <strong>fitness challenges</strong> or <strong>push notifications</strong> (e.g., reminders to stay active) during these times.</li>
+<li>Offer <strong>virtual badges or in-app rewards</strong> for reaching the daily 10,000 step count</li>
+<li>Bellabeat can also craft features like <strong>workout suggestions</strong> for users during these peak hours to increase engagement. </li>
+<li>Create informational blog posts, emails, or social media campaigns that explain the relationship between <strong>steps and calorie burn</strong>, including how users can improve their step count to burn more calories. For example:<ul>
+<li>“How Many Calories Can You Burn with 10,000 Steps?”</li>
+<li>“The Science of Steps: Why Walking More Leads to Higher Calorie Burn.”</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>These insights can be used to refine Bellabeat’s <strong>mindfulness features</strong> (e.g., promoting better sleep through relaxation exercises) and highlight the benefits of good sleep in marketing campaigns.</li>
+<li>Bellabeat could develop <strong>day-specific challenges or promotions.</strong> For example, since we see that step count is lower mid-week, a campaign like &quot;Step it Up Wednesday&quot; could be promoted offering in-app badges or rewards for achieving step goals on those days. </li>
+<li>Launch a campaign emphasizing the importance of balancing <strong>sufficient sleep and daily activity</strong> linking it to general wellness and health. </li>
+<hr>
+<h3 id="links-to-tableau-dashboard-and-github-code">Links to Tableau Dashboard and Github Code</h3>
+<ul>
+<li><a href="https://public.tableau.com/views/BellabeatsPortfolioProject/BellabeatDashboard?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" target="_blank">Bellabeat Tableau Public Dashboard</a></li>
+<li><a href="https://github.com/jasmine-alb/PortfolioProjects/blob/936150aac0202c2d870961e8a49f107776bfcf0b/BellabeatDataAnalysis.sql" target="_blank">GitHub MySQL Full Code</a></li>
+</ul>
+<hr>
+<h2 id="-thank-you-"><strong>Thank You</strong></h2>
+
+
+
+
+
+
+
+
+
+
+							
+							
+												
+						</div>
+					</div>
+
+				<!-- Footer -->
+									<!-- Footer -->
+									<footer id="footer">
+										<div class="inner">
+											<section>
+												<h2>Contact Info</h2>
+				
+													<h4>Phone</h4>
+													<p><a href="tel:+17066914319">(706) 691-4319</a></p>
+												
+													<h4>Email</h4>
+													<p><a href="mailto:jasmine.n.albarghsh@gmail.com">jasmine.n.albarghsh@gmail.com</a></p>
+												
+											</section>
+											<section>
+												<h2>Follow</h2>
+												<ul class="icons">
+													<li><a href="https://www.linkedin.com/in/jasminealbarghsh/" target="_blank"class="icon brands style2 fa-linkedin" title="LinkedIn"><span class="label">LinkedIn</span></a></li>
+													<li><a href="Jasmine_Albarghsh_2024.pdf" target="_blank" class="icon solid style2 fa-file-alt" title="Resume"><span class="label">Resume</span></a></li>
+													<li><a href="tel:+17066914319" target="_blank"class="icon solid style2 fa-phone" title="Phone"><span class="label">Phone</span></a></li>
+													<li><a href="mailto:jasmine.n.albarghsh@gmail.com" target="_blank"class="icon solid style2 fa-envelope" title="Email"><span class="label">Email</span></a></li>
+													<li><a href="https://github.com/jasmine-alb/PortfolioProjects/" target="_blank"class="icon brands style2 fa-github" title="GitHub"><span class="label">GitHub</span></a></li>
+												</ul>
+											</section>
+												<ul class="copyright">
+													<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net" target="_blank" >HTML5 UP</a></li>
+												</ul>
+										</div>
+									</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

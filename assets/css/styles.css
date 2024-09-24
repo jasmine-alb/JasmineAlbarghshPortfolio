@@ -1,0 +1,41 @@
+/* Styling for the code block container */
+.code-block-container {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; /* Slightly wider to better match the original */
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+    position: relative;
+}
+
+/* MySQL label in the top-left */
+.code-label {
+    position: absolute;
+    top: -18px;
+    left: 20px;
+    background-color: #f0f0f0; /* Match background */
+    font-size: 14px;
+    font-weight: bold;
+    color: #666; /* Light gray for MySQL label */
+    padding: 2px 6px;
+}
+
+/* Code block styling */
+.code-block {
+    color: #000; /* Darker color for the code text */
+    font-size: 14px;
+    line-height: 1.6;
+    white-space: pre-wrap; /* Preserve spaces and line breaks */
+    border: none;
+    background-color: #f0f0f0;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+/* Remove default border around the <pre> element */
+pre {
+    border: none;
+    background: none;
+}
